@@ -2,8 +2,9 @@
 
 ## Ideas
 ### CLI Arguments
-Confidence: minimum confidence for a match
-Delimiter: for tokenizing
+- Confidence: minimum confidence for a match
+- Delimiter: for tokenizing
+- Matchers: Which model(s) to apply
 
 ## Similarity Methods
 - By character: frequency, appearance, position. Same for token.
@@ -16,6 +17,7 @@ Delimiter: for tokenizing
 - [Sparse Distributed Representations](http://www.cortical.io/technology_representations.html)
 - n-grams
 - Markov Chain
+- [Haskell Analysis Cookbook](http://haskelldata.com/) has a lot of good ideas
 
 ## Open Questions
 SDR can be used for fast comparisons - but how to encode a string into SDR in the first place?
