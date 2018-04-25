@@ -1,5 +1,12 @@
 # simile
 
+## Getting Started
+Build & run with arguments:
+`stack exec simile-exe Setup.hs`
+
+Watch for changes and re-build:
+`stack build --fast --file-watch --pedantic`
+
 ## Ideas
 ### CLI Arguments
 - Confidence: minimum confidence for a match

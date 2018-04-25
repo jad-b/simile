@@ -1,6 +1,7 @@
-module Lib
-    ( someFunc
-    ) where
+module Lib (
+    simile
+) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+-- Equivalent to the string identity function
+simile :: String -> String
+simile = unlines . lines
