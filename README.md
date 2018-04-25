@@ -1,11 +1,18 @@
 # simile
 
 ## Getting Started
+Install some dependencies
+
+    stack install hoogle
+
+### Useful Commands
 Build & run with arguments:
-`stack exec simile-exe Setup.hs`
+
+    stack exec simile-exe Setup.hs
 
 Watch for changes and re-build:
-`stack build --fast --file-watch --pedantic`
+
+    stack build --fast --file-watch --pedantic
 
 ## Ideas
 ### CLI Arguments
@@ -31,4 +38,6 @@ SDR can be used for fast comparisons - but how to encode a string into SDR in th
 
 ## Design
 * Look at using [pipes](https://hackage.haskell.org/package/pipes)
+* Probably smart to mimic scikit-learn's API when it comes to the Matchers:
+  - [Logistic Regression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 - Example file tailing application: https://gist.github.com/radix/e9b90c09b75fbe945d69
